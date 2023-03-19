@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&display=swap');
+
+$color1 : rgb(240, 225, 225);
+$color2 : rgb(254, 221, 222);
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    vertical-align: top;
+}
+
+header,
+nav,
+section,
+footer {
+    width : 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,p {
+    text-align: center;
+    margin : 10px 0px;
+}
+
+h1 {
+    font-size : 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+@mixin hover($font, $back) {
+    &:hover {
+        color : $font;
+        background-color: $back;
+        @content;  
+    }
+}
+
+@mixin text_center {
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+@mixin img_full {
+    width: 100%;
+    object-fit: cover;
+    min-height: 100%;
+}
+
+
+    

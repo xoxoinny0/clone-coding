@@ -1,0 +1,13 @@
+#header_wrap {
+    width: 100%;
+}
+#header_wrap img{
+    width: 100%;
+    height: 667px;
+    object-fit: cover;
+    min-height: 100%;
+    filter: grayscale(0.5);
+    /* background: url('../img/wedding_couple2.jpg') no-repeat cover; */ 
+    /* background-position: contain; */
+    /* background-repeat: no-repeat; */
+}
