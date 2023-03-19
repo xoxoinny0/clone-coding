@@ -1,9 +1,6 @@
 
-# CLONE PROJECT
-* 리액트 학습을 위한 클론코딩
-* 참조 사이트 https://www.w3schools.com/w3css/tryw3css_templates_architect.htm 
-
-# 주요 학습내용
-* GlobalStyles 설정
-* flex 활용
-* 미디어쿼리를 적용한 반응형 웹 구현
+# CLONE PROJECT 01
+### 기술스택
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
